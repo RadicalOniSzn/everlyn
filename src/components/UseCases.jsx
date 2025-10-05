@@ -10,7 +10,7 @@ function UseCases() {
       id="usecases"
       className="py-12 px-4 sm:px-6 md:py-50 md:px-15 bg-black text-white"
     >
-      {/* Heading */}
+      
       <div className="pb-6 sm:pb-10 px-4 sm:px-6 md:px-18 text-center">
         <h2 className="text-2xl sm:text-3xl md:text-[2.4rem] font-bold mb-4">
           Transforming Industries
@@ -23,7 +23,7 @@ function UseCases() {
 
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
-        {/* 1️⃣ Content Creation */}
+        
         <div
           onClick={scrollToTop}
           className="relative cursor-pointer group w-full overflow-hidden rounded-xl"
@@ -58,7 +58,7 @@ function UseCases() {
           </div>
         </div>
 
-        {/* 2️⃣ Film Production */}
+        
         <div
           onClick={scrollToTop}
           className="relative cursor-pointer group w-full overflow-hidden rounded-xl"
@@ -93,7 +93,7 @@ function UseCases() {
           </div>
         </div>
 
-        {/* 3️⃣ Education */}
+        
         <div
           onClick={scrollToTop}
           className="relative cursor-pointer group w-full overflow-hidden rounded-xl"
@@ -128,7 +128,7 @@ function UseCases() {
           </div>
         </div>
 
-        {/* 4️⃣ Virtual Reality */}
+        
         <div
           onClick={scrollToTop}
           className="relative cursor-pointer group w-full overflow-hidden rounded-xl"

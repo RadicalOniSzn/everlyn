@@ -6,7 +6,7 @@ import { FiLock } from "react-icons/fi";
 function Features() {
   return (
     <>
-      {/* Top image */}
+      
       <div className="flex justify-center my-16 px-4">
         <img
           src="./video.png"
@@ -15,7 +15,7 @@ function Features() {
         />
       </div>
 
-      {/* Section heading */}
+      
       <section
         id="features"
         className="flex flex-col justify-center py-12 sm:py-16 px-4 sm:px-6 bg-black text-white items-center text-center"
@@ -32,7 +32,7 @@ function Features() {
       {/* Feature cards grid */}
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mb-16 sm:mb-24 mx-auto px-4">
         <IconContext.Provider value={{ color: "purple", size: "25px" }}>
-          {/* Card 1 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <HiCpuChip />
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
@@ -44,7 +44,7 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 2 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <HiCpuChip />
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
@@ -56,7 +56,7 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 3 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <FiLock />
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
@@ -68,7 +68,7 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 4 */}
+         
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <HiCpuChip />
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
@@ -80,7 +80,7 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 5 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <HiCpuChip />
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
@@ -92,7 +92,7 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 6 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <HiCpuChip />
             <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
