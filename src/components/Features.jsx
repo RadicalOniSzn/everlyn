@@ -2,6 +2,10 @@ import React from "react";
 import { HiCpuChip } from "react-icons/hi2";
 import { IconContext } from "react-icons";
 import { FiLock } from "react-icons/fi";
+import { FaNetworkWired } from "react-icons/fa6";
+import { LuRefreshCw } from "react-icons/lu";
+import { IoCodeSharp } from "react-icons/io5";
+import { LuShield } from "react-icons/lu";
 
 function Features() {
   return (
@@ -35,7 +39,7 @@ function Features() {
           
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Advanced AI Models
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -46,8 +50,9 @@ function Features() {
 
           
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <FaNetworkWired />
+
+            <h3 className="text-lg sm:text-xl font-semibold mt-3 mb-3 sm:mb-4">
               Decentralized Infrastructure
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -59,7 +64,7 @@ function Features() {
           
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <FiLock />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Content Ownership
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -70,8 +75,8 @@ function Features() {
 
          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <LuRefreshCw />
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Real-time Processing
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -82,8 +87,8 @@ function Features() {
 
           
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <IoCodeSharp />
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Developer API
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -94,8 +99,8 @@ function Features() {
 
           
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <LuShield />
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Privacy Focused
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">

@@ -25,14 +25,14 @@ function Hero() {
 
      
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-8 sm:mt-9">
-        <button className="hover:brightness-90 text-white bg-gradient-to-l from-blue-600 to-purple-600 rounded-3xl py-[0.7rem] px-[2rem] transition-all duration-300">
+        <button className="hover:brightness-80 text-white bg-gradient-to-l from-blue-600 to-purple-600 rounded-3xl py-[0.7rem] px-[2rem] transition-all duration-300">
           <div className="flex items-center justify-center gap-2 sm:gap-3">
             <span>Get Early Access</span>
             <TfiArrowRight className="text-lg" />
           </div>
         </button>
 
-        <button className=" hover:text-blue-400 text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-all duration-300">
+        <button className=" hover:bg-gray-900 text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-all duration-300">
           <div className="flex items-center justify-center gap-2">
             <PiPlayCircleLight className="text-lg" />
             <span>Watch Demo</span>
