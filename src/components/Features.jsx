@@ -2,20 +2,24 @@ import React from "react";
 import { HiCpuChip } from "react-icons/hi2";
 import { IconContext } from "react-icons";
 import { FiLock } from "react-icons/fi";
+import { FaNetworkWired } from "react-icons/fa6";
+import { LuRefreshCw } from "react-icons/lu";
+import { IoCodeSharp } from "react-icons/io5";
+import { LuShield } from "react-icons/lu";
 
 function Features() {
   return (
     <>
-      {/* Top image */}
+      
       <div className="flex justify-center my-16 px-4">
         <img
           src="./video.png"
           alt="Video preview"
-          className="mb-16 sm:mb-[10rem] w-full max-w-xs sm:max-w-md md:max-w-3xl object-contain rounded-2xl"
+          className="mb-16 sm:mb-[10rem] w-full max-w-xs sm:max-w-md md:max-w-3xl object-contain rounded-2xl shadow-lg shadow-cyan-500/50"
         />
       </div>
 
-      {/* Section heading */}
+      
       <section
         id="features"
         className="flex flex-col justify-center py-12 sm:py-16 px-4 sm:px-6 bg-black text-white items-center text-center"
@@ -32,10 +36,10 @@ function Features() {
       {/* Feature cards grid */}
       <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mb-16 sm:mb-24 mx-auto px-4">
         <IconContext.Provider value={{ color: "purple", size: "25px" }}>
-          {/* Card 1 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Advanced AI Models
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -44,10 +48,11 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 2 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <FaNetworkWired />
+
+            <h3 className="text-lg sm:text-xl font-semibold mt-3 mb-3 sm:mb-4">
               Decentralized Infrastructure
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -56,10 +61,10 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 3 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
             <FiLock />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Content Ownership
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -68,10 +73,10 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 4 */}
+         
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <LuRefreshCw />
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Real-time Processing
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -80,10 +85,10 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 5 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <IoCodeSharp />
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Developer API
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -92,10 +97,10 @@ function Features() {
             </p>
           </div>
 
-          {/* Card 6 */}
+          
           <div className="p-5 sm:p-6 bg-gray-950 rounded-xl shadow-lg border border-gray-800 hover:border-purple-600 transition-all duration-300">
-            <HiCpuChip />
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+            <LuShield />
+            <h3 className="text-lg sm:text-xl font-semibold mt-3  mb-3 sm:mb-4">
               Privacy Focused
             </h3>
             <p className="text-gray-400 text-sm sm:text-base">

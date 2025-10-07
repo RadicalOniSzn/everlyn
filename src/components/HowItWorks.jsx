@@ -10,9 +10,9 @@ function HowItWorks() {
       id="how"
       className="mx-4 sm:mx-10 py-16 sm:py-20 px-4 sm:px-6 bg-black text-white"
     >
-      {/* Outer layout */}
+      
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-6">
-        {/* Left content */}
+        
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start mx-auto text-center lg:text-left space-y-4">
           <h2 className="text-3xl sm:text-4xl font-bold mb-2 sm:mb-4">
             How It Works
@@ -48,7 +48,7 @@ function HowItWorks() {
           </div>
         </div>
 
-        {/* Center image (numbering) */}
+        
         <div className="hidden md:flex flex-none justify-center items-center px-4">
           <img
             src="./numbering.webp"
@@ -57,7 +57,7 @@ function HowItWorks() {
           />
         </div>
 
-        {/* Right content */}
+        
         <div className="w-full lg:w-2/5 max-w-3xl mx-auto space-y-6 text-center lg:text-left">
           <div className="rounded-xl shadow-lg">
             <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">
@@ -99,8 +99,8 @@ function HowItWorks() {
             </p>
           </div>
 
-          <button className="w-full sm:w-auto hover:bg-gray-900 text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-colors">
-            <div className="flex justify-center lg:justify-start gap-2 text-sm sm:text-base">
+          <button className="w-full sm:w-auto hover:bg-gray-900 cursor-pointer text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-colors">
+            <div className="flex justify-center lg:justify-start gap-2 text-sm sm:text-base ">
               <span>View Technical Documentation</span>
             </div>
           </button>
