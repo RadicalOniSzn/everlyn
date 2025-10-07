@@ -99,8 +99,8 @@ function HowItWorks() {
             </p>
           </div>
 
-          <button className="w-full sm:w-auto hover:bg-gray-900 text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-colors">
-            <div className="flex justify-center lg:justify-start gap-2 text-sm sm:text-base">
+          <button className="w-full sm:w-auto hover:bg-gray-900 cursor-pointer text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-colors">
+            <div className="flex justify-center lg:justify-start gap-2 text-sm sm:text-base ">
               <span>View Technical Documentation</span>
             </div>
           </button>

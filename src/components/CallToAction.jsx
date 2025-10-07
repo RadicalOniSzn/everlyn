@@ -31,15 +31,15 @@ function CallToAction() {
 
         
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-8 sm:mt-9 w-full sm:w-auto justify-center">
-          <button className="hover:brightness-110 text-white bg-gradient-to-l from-blue-600 to-purple-600 rounded-3xl py-[0.9rem] px-[2rem] sm:py-[1rem] sm:px-[3rem] transition-all text-sm sm:text-base">
-            <div className="flex gap-2 sm:gap-3 items-center justify-center">
+          <button className="hover:brightness-110 cursor-pointer text-white bg-gradient-to-l from-blue-600 to-purple-600 rounded-3xl py-[0.9rem] px-[2rem] sm:py-[1rem] sm:px-[3rem] transition-all text-sm sm:text-base">
+            <div className="flex gap-2 sm:gap-3 items-center justify-center ">
               <span>Request Early Access</span>
               <TfiArrowRight />
             </div>
           </button>
 
-          <button className="hover:bg-gray-900 text-white border border-gray-700 rounded-3xl py-[0.9rem] px-[2rem] sm:py-[1rem] sm:px-[2.5rem] transition-all text-sm sm:text-base">
-            <div className="flex gap-2 items-center justify-center">
+          <button className="hover:bg-gray-900 cursor-pointer text-white border border-gray-700 rounded-3xl py-[0.9rem] px-[2rem] sm:py-[1rem] sm:px-[2.5rem] transition-all text-sm sm:text-base">
+            <div className="flex gap-2 items-center justify-center ">
               <span>View Documentation</span>
             </div>
           </button>

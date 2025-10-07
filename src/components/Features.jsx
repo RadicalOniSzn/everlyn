@@ -15,7 +15,7 @@ function Features() {
         <img
           src="./video.png"
           alt="Video preview"
-          className="mb-16 sm:mb-[10rem] w-full max-w-xs sm:max-w-md md:max-w-3xl object-contain rounded-2xl"
+          className="mb-16 sm:mb-[10rem] w-full max-w-xs sm:max-w-md md:max-w-3xl object-contain rounded-2xl shadow-lg shadow-cyan-500/50"
         />
       </div>
 
