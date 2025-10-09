@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className="h-screen flex flex-col justify-center items-center text-center px-6 bg-gradient-to-r from-black to-gray-950 ">
      
-      <p className="mt-24  text-purple-300 text-[14px] sm:text-[15px] md:text-sm mb-6 sm:mb-8 max-w-xs sm:max-w-md md:max-w-2xl border border-purple-900 bg-purple-600/20 rounded-2xl py-[0.15rem] px-[0.7rem]">
+      <p className="mt-12  text-purple-300 text-[14px] sm:text-[15px] md:text-sm mb-6 sm:mb-8 max-w-xs sm:max-w-md md:max-w-2xl border border-purple-900 bg-purple-600/20 rounded-2xl py-[0.15rem] px-[0.7rem]">
         <span className="text-lg text-purple-400">• </span>
         Introducing the future of autonomous video
       </p>
