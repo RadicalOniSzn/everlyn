@@ -8,7 +8,6 @@ function Testimonials() {
       id="testimonials"
       className="py-16 md:py-20 px-4 sm:px-8 md:px-12 bg-black text-white"
     >
-      
       <div className="pb-10 md:pb-20 text-center">
         <h2 className="text-3xl sm:text-4xl md:text-[2.4rem] font-bold mb-4">
           What Our Users Say
@@ -19,7 +18,6 @@ function Testimonials() {
         </p>
       </div>
 
-      
       <IconContext.Provider value={{ color: "purple", size: "18px" }}>
         <div
           className="
@@ -27,7 +25,6 @@ function Testimonials() {
             lg:overflow-visible max-w-6xl mx-auto pb-4 scrollbar-hide
           "
         >
-          
           <div
             className="
               flex-shrink-0 w-80 sm:w-96 lg:w-auto
@@ -60,7 +57,6 @@ function Testimonials() {
             </div>
           </div>
 
-          
           <div
             className="
               flex-shrink-0 w-80 sm:w-96 lg:w-auto
@@ -96,7 +92,6 @@ function Testimonials() {
             </div>
           </div>
 
-          
           <div
             className="
               flex-shrink-0 w-80 sm:w-96 lg:w-auto

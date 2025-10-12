@@ -58,7 +58,7 @@ function Navbar() {
 
      
       {menuOpen && (
-        <div className="absolute top-[4.5rem] left-0 w-full bg-black text-gray-300 flex flex-col items-center gap-4 py-6 md:hidden shadow-lg border-t border-gray-800">
+        <div className="absolute top-[4rem] left-0 w-full bg-black text-gray-300 flex flex-col items-center gap-4 py-6 md:hidden shadow-lg border-t border-gray-800">
           <a href="#features" className="hover:text-blue-400 transition-colors">
             Features
           </a>
