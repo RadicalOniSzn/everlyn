@@ -10,9 +10,7 @@ function HowItWorks() {
       id="how"
       className="mx-4 sm:mx-10 py-16 sm:py-20 px-4 sm:px-6 bg-black text-white"
     >
-      
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-6">
-        
         <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start mx-auto text-center lg:text-left space-y-4">
           <h2 className="text-3xl sm:text-4xl font-bold mb-2 sm:mb-4">
             How It Works
@@ -35,11 +33,9 @@ function HowItWorks() {
             {/* Overlay */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4 rounded-lg">
               <a
-                href="#top"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  scrollToTop();
-                }}
+                href="https://lynlabs.gitbook.io/lyn"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white text-sm sm:text-base font-medium hover:underline"
               >
                 Learn about our technology →
@@ -48,7 +44,6 @@ function HowItWorks() {
           </div>
         </div>
 
-        
         <div className="hidden md:flex flex-none justify-center items-center px-4">
           <img
             src="./numbering.webp"
@@ -57,7 +52,6 @@ function HowItWorks() {
           />
         </div>
 
-        
         <div className="w-full lg:w-2/5 max-w-3xl mx-auto space-y-6 text-center lg:text-left">
           <div className="rounded-xl shadow-lg">
             <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3">
@@ -99,11 +93,18 @@ function HowItWorks() {
             </p>
           </div>
 
-          <button className="w-full sm:w-auto hover:bg-gray-900 cursor-pointer text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-colors">
-            <div className="flex justify-center lg:justify-start gap-2 text-sm sm:text-base ">
-              <span>View Technical Documentation</span>
-            </div>
-          </button>
+          <a
+            href="https://lynlabs.gitbook.io/lyn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-sm sm:text-base font-medium hover:underline"
+          >
+            <button className="w-full sm:w-auto hover:bg-gray-900 cursor-pointer text-white border border-gray-700 rounded-3xl py-[0.7rem] px-[1.5rem] transition-colors">
+              <div className="flex justify-center lg:justify-start gap-2 text-sm sm:text-base ">
+                <span>View Technical Documentation</span>
+              </div>
+            </button>
+          </a>
         </div>
       </div>
     </section>

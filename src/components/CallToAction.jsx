@@ -5,8 +5,8 @@ import { useInView } from "react-intersection-observer";
 
 function CallToAction() {
   const { ref, inView } = useInView({
-    triggerOnce: true, 
-    threshold: 0.3, 
+    triggerOnce: true,
+    threshold: 0.3,
   });
 
   const data = [
@@ -18,7 +18,6 @@ function CallToAction() {
 
   return (
     <>
-      
       <section className="pt-20 sm:pt-24 flex flex-col justify-center items-center text-center px-4 sm:px-8 md:px-16 bg-gradient-to-r from-[#0b021a] to-[#090016]">
         <h1 className="text-3xl sm:text-4xl md:text-[3rem] font-extrabold mb-5 sm:mb-6 leading-snug">
           Ready to Transform Your Video Creation?
@@ -29,7 +28,6 @@ function CallToAction() {
           AI. Early access is now available for creators and developers.
         </h2>
 
-        
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 mt-8 sm:mt-9 w-full sm:w-auto justify-center">
           <button className="hover:brightness-110 cursor-pointer text-white bg-gradient-to-l from-blue-600 to-purple-600 rounded-3xl py-[0.9rem] px-[2rem] sm:py-[1rem] sm:px-[3rem] transition-all text-sm sm:text-base">
             <div className="flex gap-2 sm:gap-3 items-center justify-center ">
@@ -38,11 +36,18 @@ function CallToAction() {
             </div>
           </button>
 
-          <button className="hover:bg-gray-900 cursor-pointer text-white border border-gray-700 rounded-3xl py-[0.9rem] px-[2rem] sm:py-[1rem] sm:px-[2.5rem] transition-all text-sm sm:text-base">
-            <div className="flex gap-2 items-center justify-center ">
-              <span>View Documentation</span>
-            </div>
-          </button>
+          <a
+            href="https://lynlabs.gitbook.io/lyn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-sm sm:text-base font-medium hover:underline"
+          >
+            <button className="hover:bg-gray-900 cursor-pointer text-white border border-gray-700 rounded-3xl py-[0.9rem] px-[2rem] sm:py-[1rem] sm:px-[2.5rem] transition-all text-sm sm:text-base">
+              <div className="flex gap-2 items-center justify-center ">
+                <span>View Documentation</span>
+              </div>
+            </button>
+          </a>
         </div>
       </section>
 

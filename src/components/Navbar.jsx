@@ -40,7 +40,9 @@ function Navbar() {
        
         <li>
           <a
-            href="#cta"
+            href="https://youtu.be/TOXCjnrQTkc?si=Rxv3KFq9Lb1Ejujg"
+            target="_blank" 
+            rel="noopener noreferrer"
             className="hidden md:inline-block bg-gradient-to-l from-blue-600 to-purple-600 text-white rounded-3xl py-2 px-5 font-semibold transition duration-300 hover:brightness-80"
           >
             Get Started
